@@ -9,7 +9,7 @@
 $ npm install --save imagemin-jpegoptim
 ```
 
-See [jpegoptim-bin's install section](https://github.com/imagemin/jpegoptim-bin#install) for requirements.
+Use local jpegoptim.
 
 
 ## Usage

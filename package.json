@@ -1,55 +1,22 @@
 {
-  "name": "imagemin-jpegoptim",
-  "version": "5.0.0",
-  "description": "jpegoptim imagemin plugin",
-  "license": "MIT",
-  "repository": "imagemin/imagemin-jpegoptim",
-  "author": {
-    "name": "Kevin Mårtensson",
-    "email": "kevinmartensson@gmail.com",
-    "url": "github.com/kevva"
-  },
-  "maintainers": [
-    {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
-    }
-  ],
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "compress",
-    "image",
-    "imageminplugin",
-    "img",
-    "jpg",
-    "minify",
-    "optimize"
-  ],
   "dependencies": {
     "execa": "^0.4.0",
-    "is-jpg": "^1.0.0",
-    "jpegoptim-bin": "^3.0.0"
+    "is-jpg": "^1.0.0"
   },
+  "description": "jpegoptim imagemin plugin",
   "devDependencies": {
     "ava": "*",
     "is-progressive": "^3.0.0",
     "pify": "^2.3.0",
     "xo": "*"
   },
-  "xo": {
-    "esnext": true
-  }
+  "directories": {},
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "name": "imagemin-jpegoptim",
+  "version": "5.0.0"
 }

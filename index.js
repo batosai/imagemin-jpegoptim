@@ -1,7 +1,7 @@
 'use strict';
 const execa = require('execa');
 const isJpg = require('is-jpg');
-const jpegoptim = require('jpegoptim-bin');
+const jpegoptim = 'jpegoptim';
 
 module.exports = opts => buf => {
 	opts = Object.assign({}, opts);
